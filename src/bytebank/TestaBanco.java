@@ -13,6 +13,23 @@ public class TestaBanco {
 		contaDoPaulo.setTitular(paulo);
 		System.out.println(contaDoPaulo.getTitular().getNome());
 		System.out.println(contaDoPaulo.getTitular());
+		
+		Funcionario samuel = new Funcionario();
+		samuel.setNome("Samuel Silva Pereira Da Cunha");
+		samuel.setCpf("304.449.758-29");
+		samuel.setSalario(4800);
+		
+		System.out.println(samuel.getBonificacao());
+		System.out.println(samuel.toString());
+		
+		Gerente g1 = new Gerente();
+		g1.setNome("Augusto Navalha");
+		g1.setSalario(5000);
+		g1.setSenha(1234);
+		
+		System.out.println(g1.getNome());
+		System.out.println(g1.getBonificacao());
+		System.out.println(g1.autentica(1234));
 	}
 
 }
