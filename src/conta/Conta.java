@@ -1,6 +1,8 @@
-package bytebank;
+package conta;
 
-public class Conta {
+import sistema.Cliente;
+
+public abstract class Conta {
 	private double saldo;
 	private int agencia;
 	private int numero;
@@ -13,11 +15,7 @@ public class Conta {
 		Conta.total++;		
 	}
 	
-	public void deposita(double valor){
-		if (valor > 0) {
-			this.saldo += valor;
-		}
-	}
+	public abstract void deposita(double valor);
 	
 	public boolean saca(double valor){
 		if (this.saldo >= valor) {
@@ -39,6 +37,12 @@ public class Conta {
 
 	public double getSaldo() {
 		return this.saldo;
+	}
+	
+	public void setSaldo(double valor) {
+		if (valor > 0) {
+			this.saldo += valor;			
+		}
 	}
 
 	public int getAgencia() {

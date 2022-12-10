@@ -1,4 +1,4 @@
-package bytebank;
+package funcionario;
 
 public class ControleBonificacao {
 	
