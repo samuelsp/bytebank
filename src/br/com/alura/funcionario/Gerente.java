@@ -1,7 +1,7 @@
-package funcionario;
+package br.com.alura.funcionario;
 
-import sistema.AutenticacaoUtil;
-import sistema.Autenticavel;
+import br.com.alura.sistema.AutenticacaoUtil;
+import br.com.alura.sistema.Autenticavel;
 
 public class Gerente extends Funcionario implements Autenticavel {
 	

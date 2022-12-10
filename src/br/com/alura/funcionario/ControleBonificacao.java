@@ -1,4 +1,4 @@
-package funcionario;
+package br.com.alura.funcionario;
 
 public class ControleBonificacao {
 	

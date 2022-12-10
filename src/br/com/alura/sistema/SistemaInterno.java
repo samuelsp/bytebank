@@ -1,4 +1,4 @@
-package sistema;
+package br.com.alura.sistema;
 
 public class SistemaInterno {
 	private int senha = 2222;

@@ -1,4 +1,4 @@
-package conta;
+package br.com.alura.conta;
 
 public class TesteTributaveis{
 

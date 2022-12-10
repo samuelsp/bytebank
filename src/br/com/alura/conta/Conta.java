@@ -1,6 +1,6 @@
-package conta;
+package br.com.alura.conta;
 
-import sistema.Cliente;
+import br.com.alura.sistema.Cliente;
 
 public abstract class Conta {
 	private double saldo;

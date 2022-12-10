@@ -1,4 +1,4 @@
-package sistema;
+package br.com.alura.sistema;
 
 public class AutenticacaoUtil {
 	private int senha;
