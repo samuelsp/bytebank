@@ -1,4 +1,4 @@
-package br.com.alura.funcionario;
+package br.com.bytebank.banco.modelo;
 
 public class Designer extends Funcionario {
 	

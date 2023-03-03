@@ -1,4 +1,4 @@
-package br.com.alura.conta;
+package br.com.bytebank.banco.modelo;
 
 public class ContaCorrente extends Conta implements Tributavel {
 	
@@ -9,8 +9,8 @@ public class ContaCorrente extends Conta implements Tributavel {
 	}
 	
 	@Override
-	public boolean saca(double valor) {
-		return super.saca(valor + taxa);
+	public void saca(double valor) throws SaldoInsuficienteException {
+		super.saca(valor + taxa);
 	}
 	
 	public static double getTaxa() {

@@ -1,4 +1,4 @@
-package br.com.alura.sistema;
+package br.com.bytebank.banco.modelo;
 
 public class SistemaInterno {
 	private int senha = 2222;

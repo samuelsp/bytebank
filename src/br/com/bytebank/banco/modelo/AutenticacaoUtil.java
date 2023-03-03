@@ -1,4 +1,4 @@
-package br.com.alura.sistema;
+package br.com.bytebank.banco.modelo;
 
 public class AutenticacaoUtil {
 	private int senha;

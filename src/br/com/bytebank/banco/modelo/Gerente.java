@@ -1,7 +1,4 @@
-package br.com.alura.funcionario;
-
-import br.com.alura.sistema.AutenticacaoUtil;
-import br.com.alura.sistema.Autenticavel;
+package br.com.bytebank.banco.modelo;
 
 public class Gerente extends Funcionario implements Autenticavel {
 	

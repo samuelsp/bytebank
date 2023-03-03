@@ -1,4 +1,6 @@
-package br.com.alura.funcionario;
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.Gerente;
 
 public class TesteGerente {
 

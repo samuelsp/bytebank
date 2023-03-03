@@ -1,4 +1,4 @@
-package br.com.alura.sistema;
+package br.com.bytebank.banco.modelo;
 
 public interface Autenticavel {
 	void setSenha(int senha);

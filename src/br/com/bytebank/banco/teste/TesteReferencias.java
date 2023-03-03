@@ -1,4 +1,9 @@
-package br.com.alura.funcionario;
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.ControleBonificacao;
+import br.com.bytebank.banco.modelo.Designer;
+import br.com.bytebank.banco.modelo.EditorVideo;
+import br.com.bytebank.banco.modelo.Gerente;
 
 public class TesteReferencias {
 
